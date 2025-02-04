@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(209, 238, 255);  
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+a {color: blueviolet;
+}
+
+
+h1 {
+    font-size: 76px;
+    margin: 5% 0;
+    font-weight: lighter;
+}
+
+p {margin-bottom: 50px;
+}
+
+
+
+.city-wrapper {
+    padding: 60px;
+    padding-left: 120px;
+    color: rgb(167, 34, 91);
+    border: 1rem solid darkblue;
+    background-color: rgb(255, 251, 245);
+}
+
