@@ -17,23 +17,19 @@ body {
 
 .w-100{
   width: 100%;
+  padding: 1em;
 }
-
-
 
 
 a {color: #1e6798;
 }
 
 
-
-
-
 h1 {
-    font-size: 70px;
-    margin: 5% 0;
-    font-weight: lighter;
-    font-family: "Cinzel", serif;
+  font-size: 70px;
+  margin: 5% 0;
+  font-weight: lighter;
+  font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -47,6 +43,8 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  flex-direction: column;
+  padding: 10px;
 }
 
 h3 {
@@ -58,9 +56,11 @@ h3 {
 
 
 p {margin-bottom: 50px;
-font-size: 20px;
-line-height: 34px;
+  font-size: 15px;
+  line-height: 34px;
+  padding: 10px;
 }
+
 
 .details-sect {
   color: #a72436;
@@ -68,12 +68,14 @@ line-height: 34px;
 }
 
 .city-wrapper {
-    color: #8C2230;
-    background-color: rgb(255, 246, 233);
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 50px;
-    gap: 20px;
+  color: #8C2230;
+  background-color: rgb(255, 246, 233);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 20px;
+  border: 4mm ridge rgba(132, 0, 68, 0.93);
 
 }
 
@@ -102,3 +104,5 @@ footer {
 summary{ 
   font-weight: 700px;
 }
+
+
